@@ -46,7 +46,8 @@ function movePlayer(e) {
 			player.style.top = `${initialPosition.y}px`
 			e.clientX = player.style.left
 			e.clientY = player.style.top
-            
+
+			window.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
 			// audio.play() // Воспроизвести музыку
 			// image.style.display = 'block' // Показать изображение
 			// setTimeout(() => {
