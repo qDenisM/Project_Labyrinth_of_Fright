@@ -46,7 +46,7 @@ function movePlayer(e) {
 			player.style.top = `${initialPosition.y}px`
 			e.clientX = player.style.left
 			e.clientY = player.style.top
-
+            
 			// audio.play() // Воспроизвести музыку
 			// image.style.display = 'block' // Показать изображение
 			// setTimeout(() => {
