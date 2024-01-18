@@ -59,7 +59,7 @@ function movePlayer(e) {
 
 	if (checkCollision(finish)) {
 		isGameOver = true
-		alert('Поздравляем! Вы прошли лабиринт!')
+		window.location.href = '/Project_Labyrinth_of_Fright/3lvl/3lvl.html'
 	}
 }
 
