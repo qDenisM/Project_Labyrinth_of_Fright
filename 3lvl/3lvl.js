@@ -50,12 +50,15 @@ function movePlayer(e) {
 			audio.play() // Воспроизвести музыку
 			image.style.display = 'block' // Показать изображение
 			
+			
+
 			setTimeout(() => {
 				audio.pause() // Приостановить музыку через 3 секунды
 				audio.currentTime = 0 // Сбросить воспроизведение музыки
+				window.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
 				image.style.display = 'none' // Скрыть изображение
 			}, 3000)
-      window.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
+			
 		}
 	})
 
