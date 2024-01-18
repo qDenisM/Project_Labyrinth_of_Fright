@@ -5,8 +5,8 @@ const finish = document.getElementById('finish')
 const audio = document.getElementById('audio')
 const image = document.getElementById('image')
 
-const initialX = 750 
-const initialY = 650 
+const initialX = 750
+const initialY = 650
 
 let isGameOver = false
 let initialPosition = { x: start.offsetLeft, y: start.offsetTop }
@@ -38,7 +38,7 @@ function movePlayer(e) {
 
 	player.style.left = `${x}px`
 	player.style.top = `${y}px`
-  
+
 	const walls = document.querySelectorAll('.wall')
 	walls.forEach(wall => {
 		if (checkCollision(wall)) {
@@ -59,7 +59,7 @@ function movePlayer(e) {
 
 	if (checkCollision(finish)) {
 		isGameOver = true
-		alert('Поздравляем! Вы прошли лабиринт!')
+		window.location.href = '/Project_Labyrinth_of_Fright/2lvl/2lvl.html'
 	}
 }
 
