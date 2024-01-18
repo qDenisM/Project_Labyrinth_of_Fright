@@ -46,28 +46,31 @@ function movePlayer(e) {
 			player.style.top = `${initialPosition.y}px`
 			e.clientX = player.style.left
 			e.clientY = player.style.top
-
+			
 			audio.play() // Воспроизвести музыку
 			image.style.display = 'block' // Показать изображение
+			
 			setTimeout(() => {
 				audio.pause() // Приостановить музыку через 3 секунды
 				audio.currentTime = 0 // Сбросить воспроизведение музыки
 				image.style.display = 'none' // Скрыть изображение
 			}, 3000)
-      windows.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
+      window.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
 		}
 	})
 
 	if (checkCollision(finish)) {
 		isGameOver = true
 		audio.play() // Воспроизвести музыку
+		window.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
 		image.style.display = 'block' // Показать изображение
 		setTimeout(() => {
 			audio.pause() // Приостановить музыку через 3 секунды
 			audio.currentTime = 0 // Сбросить воспроизведение музыки
 			image.style.display = 'none' // Скрыть изображение
+			
 		}, 3000)
-    window.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
+    
 	}
 }
 
