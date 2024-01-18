@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .description {
+    font-size: 50px;
+  }
+  
+  .title {
+    font-size: 60px;
+  }
+  
+  .goal {
+    font-size: 30px;
+  }
+  
+  .data {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  section {
+    display: flex;
+  }
+  
+  figure {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+  }
+    
+  a {
+    color: #424242;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #b32df6;
+  }
+    
+  .site-body {
+    display: flex;
+    flex-flow: row wrap;
+  }
+    
+  .site-main {
+    background: white;
+    flex: 1 100%;
+  }
+    
+  .site-aside {
+    background: #ECEFF1;
+    flex: 1 100%;
+  }
+  .brand {
+    padding: 1rem 2rem;
+    display: block;
+    font-size: 20px;
+    border-bottom: 1px solid #CFD8DC;
+  }
+    
+  .site-footer {
+    padding: 1rem 2rem;
+    flex: 1 100%;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #ECEFF1;
+  }
+    
+   article > header {
+    background: #d81bbc;
+    padding: 3rem 0;
+    color: white;
+  }
+    
+  .container {
+    width: 88%;
+    margin: 0 auto;
+  }
+    
+  section {
+    padding: 1.7rem 0;
+    border-bottom: 1px solid #ECEFF1;
+  }
+  
+    
+  ul {
+    display: block;
+    margin: 0;
+  }
+  
+  li {
+    display: block;
+    position: relative;
+  }
+  
+  a {
+    padding: 0.7rem 2rem;
+    display: block;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #424242;
+  }
+  
+    
+    @media all and (min-width: 769px) {
+      .site-aside {
+        order: 1;
+        max-width: 300px;
+        box-shadow: inset -5px 0 5px -5px rgba(0, 0, 0, 0.1);
+      }
+    
+      .site-main {
+        order: 2;
+        flex: 1 0px;
+      }
+    
+      .site-footer {
+        order: 4;
+      }
+    
+      .container {
+        width: 85%;
+      }
+    
+      section {
+        padding: 3rem 0;
+      }
+    
+      article > header {
+        padding: 6rem 0;
+      }
+    }
+    @media all and (min-width: 1440px) {
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+  
+      section {
+        padding: 5rem 0;
+      }
+    
+      article > header {
+        padding: 8rem 0;
+      }
+    }
+  
+  img {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+  }
+  .menu{
+    font-size:24px;
+    color:black;
+    font-weight: bold;
+    
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border:3px solid black;
+    background-image: url(images/fon.jpg);
+    background-size: auto;
+  }
+  ul li {
+  display: inline;
+  float: left;
+  margin-left:50px;
+  padding-top:15px;
+  width:180px;
+}
+ ul a {
+  display: inline-block;
+  border: 3px solid black;
+  padding: 10px 40px;
+  margin-bottom: 15px;
+  width: 140px;
+  text-decoration: none;
+}
+  
+  
