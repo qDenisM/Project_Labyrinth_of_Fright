@@ -5,9 +5,6 @@ const finish = document.getElementById('finish')
 const audio = document.getElementById('audio')
 const image = document.getElementById('image')
 
-const initialX = 750 
-const initialY = 650 
-
 let isGameOver = false
 let initialPosition = { x: start.offsetLeft, y: start.offsetTop }
 
@@ -48,13 +45,6 @@ function movePlayer(e) {
 			e.clientY = player.style.top
 
 			window.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
-			// audio.play() // Воспроизвести музыку
-			// image.style.display = 'block' // Показать изображение
-			// setTimeout(() => {
-			// 	audio.pause() // Приостановить музыку через 3 секунды
-			// 	audio.currentTime = 0 // Сбросить воспроизведение музыки
-			// 	image.style.display = 'none' // Скрыть изображение
-			// }, 3000)
 		}
 	})
 

@@ -5,9 +5,6 @@ const finish = document.getElementById('finish')
 const audio = document.getElementById('audio')
 const image = document.getElementById('image')
 
-const initialX = 750
-const initialY = 650
-
 let isGameOver = false
 let initialPosition = { x: start.offsetLeft, y: start.offsetTop }
 
