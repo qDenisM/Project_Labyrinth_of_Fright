@@ -51,7 +51,7 @@ function movePlayer(e) {
 
 	if (checkCollision(finish)) {
 		isGameOver = true
-		window.location.href = '/Project_Labyrinth_of_Fright/2lvl/2lvl.html'
+		window.location.href = '/Project_Labyrinth_of_Fright/Release1/2lvl/2lvl.html'
 	}
 }
 

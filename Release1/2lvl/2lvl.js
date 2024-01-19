@@ -44,13 +44,13 @@ function movePlayer(e) {
 			e.clientX = player.style.left
 			e.clientY = player.style.top
 
-			window.location.href = '/Project_Labyrinth_of_Fright/1lvl/1lvl.html'
+			window.location.href = '/Project_Labyrinth_of_Fright/Release1/1lvl/1lvl.html'
 		}
 	})
 
 	if (checkCollision(finish)) {
 		isGameOver = true
-		window.location.href = '/Project_Labyrinth_of_Fright/3lvl/3lvl.html'
+		window.location.href = '/Project_Labyrinth_of_Fright/Release1/3lvl/3lvl.html'
 	}
 }
 
